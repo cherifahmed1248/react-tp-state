@@ -1,0 +1,54 @@
+.task {
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 10px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.task span {
+    padding-right: 10px;
+}
+
+
+.task  .details{
+    float: left;
+
+}
+.task .actions button {
+    float: right;
+    color: white;
+    background-color: #007eff;
+    margin-right: 10px;
+    border: none;
+    padding: 6px;
+}
+.task .actions{
+    float: right;
+}
+.customTask {
+    color: red
+}
+
+.task input {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+
+}
+.task textarea {
+    margin: 5px;
+    padding: 5px;
+    width: 425px;
+    height: 100px;
+}
+.task button {
+    color: white;
+    background-color: #007eff;
+    margin: 10px;
+    border: none;
+    padding: 6px;
+}

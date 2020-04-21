@@ -1,0 +1,55 @@
+
+.task-form-form {
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 10px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.task-form span {
+    padding-right: 10px;
+}
+
+
+.task-form  .details{
+    float: left;
+
+}
+.task-form .actions button {
+    float: right;
+    color: white;
+    background-color: #007eff;
+    margin-right: 10px;
+    border: none;
+    padding: 6px;
+}
+.task-form .actions{
+    float: right;
+}
+.customTask {
+    color: red
+}
+
+.task-form input {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+
+}
+.task-form textarea {
+    margin: 5px;
+    padding: 5px;
+    width: 425px;
+    height: 100px;
+}
+.task-form button {
+    color: white;
+    background-color: #007eff;
+    margin: 10px;
+    border: none;
+    padding: 6px;
+}
